@@ -1,0 +1,13 @@
+name:
+  - "EEA Information Disclosure"
+url:
+  - "/authenticationserverservlet"
+method:
+  - "GET"
+data:
+  - ""
+matchers:
+  - Status:
+      - 200
+  - Regex:
+      - "<username>(.*?)</username>"

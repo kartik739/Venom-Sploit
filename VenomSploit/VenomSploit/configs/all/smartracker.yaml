@@ -1,0 +1,15 @@
+name:
+  - "SmarterTrack - 'Multiple' Information Disclosure"
+url:
+  - "/Management/Chat/frmChatSearch.aspx"
+method:
+  - "GET"
+header:
+  - ""
+data:
+  - ""
+matchers:
+  - Status:
+      - 200
+  - Regex:
+      - ""
